@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+	<property>
+		<name>fs.default.name</name>
+		<value>hdfs://localhost:9000</value>
+		<description>The default file system URI</description>
+	</property>
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/usr/local/hadoop/htemp</value>
+	</property>
+</configuration>
